@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'custom_clipper.dart';
+import 'right_back_demo.dart';
  
 void main() => runApp(MyApp());
  
@@ -8,9 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      debugShowCheckedModeBanner: false,
-
-      home: HomePage()
+      home: RightBackDemo(),
     );
   }
 }
